@@ -9,7 +9,7 @@ library(pROC)
 
 ## Before removing outliers ##
 ## Before removing outliers ##
-df <- read.csv(file = 'updatefd_metrics.csv')
+df <- read.csv(file = 'updated_metrics.csv')
 
 # Convert 'status' to a factor with "G" and "R" labels directly after loading the data
 df$status <- factor(df$status, levels = c(1, 2), labels = c("G", "R"))
