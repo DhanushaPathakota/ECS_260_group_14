@@ -1,4 +1,4 @@
-df <- read.csv(file = 'this_cmn_3.csv')
+df <- read.csv(file = 'Communication_metrics.csv')
 
 # Convert 'status' to a factor with "G" and "R" labels directly after loading the data
 df$status <- factor(df$status, levels = c(2,1), labels = c("G", "R"))
