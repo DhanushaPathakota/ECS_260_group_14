@@ -10,7 +10,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load your data
-df = pd.read_csv('Successful_projects_with_project_size.csv') 
+df = pd.read_csv('projects_with_project_size.csv') 
 
 df_success = df[df['status'] == 1]
 
@@ -48,7 +48,7 @@ from sklearn.preprocessing import StandardScaler
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('Successful_projects_with_project_size.csv')  
+df = pd.read_csv('projects_with_project_size.csv')  
 
 
 df_success = df[df['status'] == 1]
